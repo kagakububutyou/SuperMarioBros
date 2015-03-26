@@ -49,6 +49,7 @@
      <Compile Include="Assets\Script\PlayerHorizontal.cs" />
      <Compile Include="Assets\Script\PlayerJunp.cs" />
      <Compile Include="Assets\Script\Scale.cs" />
+     <Compile Include="Assets\Script\TrackingCamera.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
