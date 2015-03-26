@@ -1,0 +1,11 @@
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\Unity\SuperMarioBros\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\Unity\SuperMarioBros\obj\Debug\UnityVS.SuperMarioBros.CSharp.csprojResolveAssemblyReference.cache
+E:\Unity\SuperMarioBros\obj\Debug\Assembly-CSharp.dll
+E:\Unity\SuperMarioBros\obj\Debug\Assembly-CSharp.pdb
