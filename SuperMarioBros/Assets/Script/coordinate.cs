@@ -1,12 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-/// <summary>
-/// サイズ変更
-/// </summary>
-public class Scale : MonoBehaviour {
 
-    [SerializeField]
-    private float Magnification = 0.0f;
+public class coordinate : MonoBehaviour {
 
     /// <summary>
     /// 初期化のためにこれを使用してください
@@ -21,7 +16,6 @@ public class Scale : MonoBehaviour {
     /// </summary>
 	void Update () 
     {
-        /// 画面の大きさに応じてサイズを変える
-        transform.localScale = new Vector3(Screen.width / Magnification, Screen.width / Magnification, 1);
+        Debug.Log(Camera.main.WorldToScreenPoint(transform.position));
 	}
 }

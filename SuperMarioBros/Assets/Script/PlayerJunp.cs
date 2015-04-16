@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// ジャンプ
+/// </summary>
 public class PlayerJunp : MonoBehaviour {
 
     [SerializeField]

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// 左右移動
+/// </summary>
 public class PlayerHorizontal : MonoBehaviour {
 
     [SerializeField]

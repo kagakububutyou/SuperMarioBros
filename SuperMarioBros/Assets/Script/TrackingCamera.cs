@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// スクロール
+/// </summary>
 public class TrackingCamera : MonoBehaviour {
 
     [SerializeField]
     private GameObject target;
     [SerializeField]
     private Vector3 distance = new Vector3(0, 0, 0);
-    [SerializeField]
-    private Vector3 lookPoint = new Vector3(0, 0, 0);
-
 
     /// <summary>
     /// 初期化のためにこれを使用してください
@@ -24,16 +23,15 @@ public class TrackingCamera : MonoBehaviour {
     /// </summary>
 	void Update ()
     {
-        Move();
+        //Tracking();
 	}
     /// <summary>
     /// 追跡
     /// </summary>
-    void Move()
+    public void Tracking()
     {
-        this.transform.position = new Vector3(target.transform.position.x, distance.y, target.transform.position.z);
+        this.transform.position = 
+            new Vector3(target.transform.position.x, distance.y, target.transform.position.z);
 
-        //Vector3 lookVector = target.transform.position + lookPoint - this.transform.position;
-        //this.transform.rotation = Quaternion.LookRotation(lookVector);
     }
 }
